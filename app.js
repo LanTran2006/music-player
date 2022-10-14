@@ -2,45 +2,45 @@ const musics = [
     {
       id: 1,
       title: "Holo",
-      file: "/song/holo.mp3",
+      file: "holo.mp3",
       image:
         "https://images.unsplash.com/photo-1614624532983-4ce03382d63d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1931&q=80",
     },
     {
       id: 2,
       title: "Summer",
-      file: "/song/mp3_music_summer.mp3",
+      file: "mp3_music_summer.mp3",
       image:
         "https://images.unsplash.com/photo-1616763355548-1b606f439f86?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
     },
     {
         id: 3,
       title: "spark",
-      file: "/song/spark.mp3",
+      file: "spark.mp3",
       image:"https://images.unsplash.com/photo-1665326330373-e1ca5ef6f2ec?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOXx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60",
     },
     {
         id:4,
         title: "home",
-        file: "/song/home.mp3",
+        file: "home.mp3",
         image: "https://images.unsplash.com/photo-1665366405948-0a49fdbde80f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyOHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
     },
    {
     id:5,
     title: "Our Story",
-    file: "/song/ChuyenDoiTa-EmceeLDaLAB-7120974.mp3",
+    file: "ChuyenDoiTa-EmceeLDaLAB-7120974.mp3",
     image: "https://avatar-ex-swe.nixcdn.com/song/share/2021/11/25/c/0/d/d/1637809827065.jpg"
    },
    {
     id:6,
     title: "Hey",
-    file: "/song/music-player_music_hey.mp3",
+    file: "music-player_music_hey.mp3",
     image: "https://images.unsplash.com/photo-1665472832769-c8bffec9296f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzM3x8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
    },
    {
     id:7,
     title: "Ukulele",
-    file: "/song/music-player_music_ukulele.mp3",
+    file: "music-player_music_ukulele.mp3",
     image: "https://images.unsplash.com/photo-1665412019489-1928d5afa5cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzNHx8fGVufDB8fHx8&auto=format&fit=crop&w=500&q=60"
    }
   ];
