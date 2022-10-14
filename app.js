@@ -105,7 +105,7 @@ function reset_time() {
     current_time.innerHTML='0:00'
         duration_time.innerHTML='0:00'
         progress.value=0;
-        currentTime=0;
+        song.currentTime=0;
 }
 function format_time(total_second) {
      let minute= Math.floor(total_second/60)
