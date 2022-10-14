@@ -92,13 +92,11 @@ function set_time() {
        }
         if (currentTime==duration) {
             if (!isrepeat) {
-               change_song(1)
-               reset_time()
-            } else {
-                progress.value=0;
-                currentTime=0;
-                song.play()
                 reset_time()
+               change_song(1)
+            } else {
+                reset_time()
+                song.play()
             }
         }
     },700);
@@ -106,6 +104,8 @@ function set_time() {
 function reset_time() {
     current_time.innerHTML='0:00'
         duration_time.innerHTML='0:00'
+        progress.value=0;
+        currentTime=0;
 }
 function format_time(total_second) {
      let minute= Math.floor(total_second/60)
@@ -139,7 +139,6 @@ function select_song() {
      reset_time()
      if (isplaying)  song.play()
      this.classList.add('active')
-     progress.value=0;
 }
 thumb.style=`background-image: url("${musics[index_song].image}")`
 play_btn.addEventListener('click',()=> {
@@ -173,6 +172,7 @@ random_btn.addEventListener('click',()=> {
       random_number=Math.floor(Math.random()*musics.length)
      } while(random_number==index_song)
      index_song=random_number
+     reset_time()
      handle_song()
 })
 let cd_width=document.querySelector('.cd').offsetWidth;
