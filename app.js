@@ -83,10 +83,10 @@ const duration_time=document.querySelector('.duration')
 song_list[index_song].classList.add('active')
 function set_time() {
     timer= setInterval(() => {
-        let {currentTime,duration}=song;
+         let {currentTime,duration}=song;
+       if (currentTime && duration) {
         let rangebar_value=(currentTime/duration)*100;
         progress.value=rangebar_value;
-       if (currentTime && duration) {
         current_time.innerHTML=format_time(currentTime)
         duration_time.innerHTML=format_time(duration)
        }
